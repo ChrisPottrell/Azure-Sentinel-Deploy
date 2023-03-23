@@ -7,21 +7,21 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<enter the MSSP offer name>"
+            "defaultValue": "Nebula-Frontier"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<enter the MSSP offer description>"
+            "defaultValue": "Nebula-Frontier"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<enter the MSSP Tenant ID (where your identities reside)>"
+            "defaultValue": "b6bd414f-7a43-4c89-a8bb-05bf01794ad5"
         },
         "authorizations": {
             "type": "array",
@@ -30,9 +30,9 @@
             },
             "defaultValue": [
                 {
-                    "principalId": "917ba8d6-5c07-4d11-ae26-dccba5df6405",
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "SOC users"
+                    "principalId": "e4419cf3-8419-46c4-9261-09606f017bbf",
+                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                    "principalIdDisplayName": "SOC Analyst"	
                 }
             ]
         },
